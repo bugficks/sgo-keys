@@ -1,0 +1,20 @@
+; Top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = LF
+charset = "utf-8"
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+
+[*.{c,cpp,cxx,h,hpp,asm,S,py,js,json,java,cs}]
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[*.{mk,conf}]
+indent_style = tab

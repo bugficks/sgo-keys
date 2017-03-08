@@ -31,3 +31,8 @@
 # Debug files
 *.dSYM/
 *.su
+*o.cmd
+sgo-keys_sdp1406.mod.c
+modules.order
+Module.symvers
+.tmp_versions/
